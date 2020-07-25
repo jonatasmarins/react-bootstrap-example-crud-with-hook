@@ -1,0 +1,25 @@
+
+    .principal {
+      display: flex;
+      flex-direction: center;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .newTransaction {
+      margin-right: 15px;
+      width: 20vw;
+    }
+
+    .filter {
+      width: 100vw;
+    }
+
+    .border {
+      border: 1px solid #ced4da;
+    }
+
+    .textCenter {
+      text-align: center;
+    }
+  

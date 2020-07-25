@@ -1,0 +1,26 @@
+.backgroundColorSuccess {
+    background-color: #72ac82;
+}
+
+.backgroundColorError {
+    background-color: #eb886f;
+}
+
+.row {
+    min-height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.margin {
+    margin-bottom: 10px;
+}
+
+.img {
+    margin-right: 5px;
+}
+
+.textAlignStart {
+    text-align: start;
+}

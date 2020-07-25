@@ -1,0 +1,16 @@
+.button{
+    font-weight: 600;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectSize {
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
