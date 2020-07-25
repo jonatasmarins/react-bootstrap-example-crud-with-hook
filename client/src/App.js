@@ -53,7 +53,6 @@ export default function App() {
   }
 
   const onRefresh = async () => {
-    console.log(periodSelected)
     await onChangeDateSelect(periodSelected);
     await getTransactionByPeriod(periodSelected);
   } 
