@@ -57,7 +57,7 @@ const dashBoardCalculate = (expenses, revenues) => {
 const mountTransactionModel = (transaction) => {
     transaction.period = transaction.period.replace('-', '/');
 
-    let period = getDateFormat(new Date(transaction.period));    
+    let period = new Date(moment(transaction.period, "DD/MM/YYYY"));    
 
     const dayCurrent = extensionShared.getDayFormat(period);
     const monthCurrent = extensionShared.getMonthFormat(period);
